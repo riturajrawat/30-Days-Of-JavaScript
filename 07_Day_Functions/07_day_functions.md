@@ -170,7 +170,7 @@ console.log(square(10))
 ```js
 // function with two parameters
 function functionName(parm1, parm2) {
-  //code goes her
+  //code goes here
 }
 functionName(parm1, parm2) // during calling or invoking two arguments needed
 // Function without parameter doesn't take input, so lets make a function with parameters
@@ -224,13 +224,13 @@ console.log(areaOfCircle(10))
 
 ```
 
-### Function with unlimited number of parameters
+### Function with an unlimited number of parameters
 
 Sometimes we do not know how many arguments the user going to pass. Therefore, we should know how to write a function which can take unlimited number of arguments. The way we do it has a significant difference between a function declaration(regular function) and arrow function. Let us see examples both in function declaration and arrow function.
 
 #### Unlimited number of parameters in regular function
 
- A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
+ A function declaration provides a function scoped arguments array like object. Anything we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
 
  ```js
 // Let us access the arguments object
@@ -502,9 +502,9 @@ console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gra
 
 ### Function declaration versus Arrow function
 
-It Will be covered in other section.
+It Will be covered in another section.
 
-🌕 You are a rising star, now you knew function . Now, you are super charged with the power of functions. You have just completed day 7 challenges and you are 7 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are a rising star, now you knew function. Now, you are supercharged with the power of functions. You have just completed day 7 challenges and you are 7 steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
 
 
@@ -601,7 +601,7 @@ It Will be covered in other section.
     sum(1, 2, 3, 4) // -> 10
     ```
 
-1. Writ a function which generates a _randomUserIp_.
+1. Write a function which generates a _randomUserIp_.
 1. Write a function which generates a _randomMacAddress_
 1. Declare a function name _randomHexaNumberGenerator_. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 
